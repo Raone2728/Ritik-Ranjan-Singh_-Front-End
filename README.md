@@ -1,6 +1,6 @@
 # Ritik-Ranjan-Singh_-Front-End
 
-##Component Code Review
+##  Component Code Review
 
 1.Explanation of the simple List Component .
 ans :This is a React component that renders a selectable list of items with two nested functional components. WrappedSingleListItem renders a single list item with a background color based on whether it is selected or not. WrappedListComponent creates a list of SingleListItem components and uses the useState and useEffect hooks to manage the state of the currently selected item. Each SingleListItem component receives props and updates the selectedIndex state variable with the index of the clicked item when clicked.
@@ -20,7 +20,7 @@ f.The setSelectedIndex function in the List component should be initialized with
 
 g.The onClickHandler function passed to the SingleListItem component should be wrapped in an arrow function to prevent it from being called immediately during rendering.
 
-
+# optimized/or  modified  component code
 ## Code
 
 ```javascript
