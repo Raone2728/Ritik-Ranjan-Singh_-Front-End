@@ -24,10 +24,10 @@ g.The onClickHandler function passed to the SingleListItem component should be w
 ## Code
 
 ```javascript
-
+import React, { useState, useEffect, memo } from 'react';
 import PropTypes from 'prop-types';
 
-// Single List Item
+
 const SingleListItem = ({
   index,
   isSelected,
@@ -53,7 +53,6 @@ SingleListItem.propTypes = {
 
 const MemoizedSingleListItem = memo(SingleListItem);
 
-// List Component
 const List = ({
   items,
 }) => {
